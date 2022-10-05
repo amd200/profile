@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Main Style File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <body>
+    <!-- Start Nav Bar -->
+    <nav>
+      <div class="container">
+        <div class="right">
+          <a href="#" class="logo">Logo</a>
+          <div class="images-icon">
+            <img src="imgs/Vector.png" class="notifications" alt="notifications-icon">
+            <img src="imgs/Ellipse 1.png" alt="user-icon">
+          </div>
+          <form action=""  enctype="multipart/form-data">
+            <input type="text" placeholder="ابحث هنا">
+            <img src="Vector.png" alt="">
+          </form>
+        </div>
+        <ul>
+          <li><a href="#">الرئيسية</a></li>
+          <li><a href="#">الكورسات</a></li>
+          <li><a href="#">اختبارات</a></li>
+          <li><a href="#">الأسعار</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Nav Bar -->
+    <!-- Start Profile -->
+    <div class="info">
+      <div class="container">
+        <div class="aside-nav">
+          <ul>
+            <h3>الملف الشخصي</h3>
+            <li><a href="">كورساتي</a></li>
+            <li><a href="">اختباراتي</a></li>
+            <li><a href="" class="active">معلوماتي</a></li>
+            <li><a href="">اختبارات سريعة</a></li>
+            <li><a href="">نتائجي</a></li>
+          </ul>
+        </div>
+        <div class="content">
+          <form action="">
+            <div class="logo">
+              <label for="img-file" class="img-file">
+                <input type="file" id="img-file">
+              </label>
+              <img src="imgs/Ellipse 2.png" alt="">
+            </div>
+            <div>
+              <label for="">الاسم الأول</label>
+              <input type="text" name="first-name">
+            </div>
+            <div>
+              <label for="">الاسم الأخير</label>
+              <input type="text" name="last-name">
+            </div>
+            <div>
+              <label for="">رقم الهاتف</label>
+              <input type="text" name="user-phone">
+            </div>
+            <div>
+              <label for="">رقم هاتف ولي الأمر</label>
+              <input type="text" name="parent-phone">
+            </div>
+            <div>
+              <label for="">البريد الالكتروني</label>
+              <input type="email" name="email">
+            </div>
+            <div>
+              <label for="">المحافظة</label>
+              <input type="text" name="gov">
+            </div>
+            <div  class="pass">
+              <label for="">كلمة السر</label>
+              <input type="password" name="password">
+              <!-- <i class="fa-sharp fa-solid fa-eye toggle-pass"></i> -->
+              <i class="fa-solid fa-eye-slash toggle-pass"></i>
+            </div>
+            <div class="sub-btn">
+              <i class="fa-solid fa-pen"></i>
+              <input type="submit" value="تعديل" name="edit">
+            </div>
+          </form>
+          <div class="about">
+            <div class="top">
+              <div>
+                <p>نقاطي</p>
+                <span>200</span>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div>
+                <p>الكورسات المسجلة</p>
+                <span>2</span>
+              </div>
+              <div>
+                <p>الاختبارات</p>
+                <span>5</span>
+              </div>
+              <div>
+                <p>اجمالي الأسئلة</p>
+                <span>40</span>
+              </div>
+            </div>
+            <div class="progress">
+              <p>التقدم</p>
+              <span>38%</span>
+              <div class="bar">
+                <div class="on-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Profile -->
+    <script src="js/profile.js"></script>
+  </body>
+</html>
